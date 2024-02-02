@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: #ebf2ff !important;
+}
+.mobile_only{
+    position:  fixed;
+    background-color: #ebf2ff;
+    bottom: 0%;
+    right: 0%;
+    padding: 15px 10px ;
+    width: 100%;
+}
+@media (min-width:789px) {
+    .mobile_only{
+        display : none;
+    }
+}
